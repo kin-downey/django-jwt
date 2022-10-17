@@ -11,6 +11,8 @@ db/
 
 *.env
 
+*.pyc
+
 # Runtime data
 pids
 *.pid
