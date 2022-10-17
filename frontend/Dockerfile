@@ -1,7 +1,0 @@
-FROM node:16
-
-WORKDIR /app
-
-EXPOSE 8080
-
-CMD [ "sh", "entrypoint.sh" ]
