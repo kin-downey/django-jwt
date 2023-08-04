@@ -84,8 +84,10 @@ DATABASES = {
             'ENGINE': 'django.db.backends.mysql',
             'NAME': os.getenv('DB_NAME'),
             'USER': os.getenv('DB_USER'),
-            'PASSWORD': os.getenv('DB_PASS'),
-            'HOST': os.getenv('DB_HOST'),
+            # 'PASSWORD': os.getenv('DB_PASS'),
+            'PASSWORD': 'asdf',
+            # 'HOST': os.getenv('DB_HOST'),
+            'HOST': 'database',
             'PORT': int(os.getenv('DB_PORT'))
         }
 }
